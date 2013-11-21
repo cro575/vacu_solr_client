@@ -1,7 +1,7 @@
 [SolrSharp]
 
 SolrSharp : 
-	- SolrSharp 라이브러리 (vacusoft 기능확장, yskwun 추석추가)
+	- SolrSharp 라이브러리 (vacusoft 기능확장, yskwun 추석추가)<br>
 	- 원자료 Url : http://solrsharp.codeplex.com/
 			
 SolrSharp.Example : SolrSharp 라이브러리 샘플
