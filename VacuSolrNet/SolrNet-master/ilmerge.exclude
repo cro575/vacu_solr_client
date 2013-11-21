@@ -1,0 +1,8 @@
+SolrNet.DSL.*
+Castle.Facilities.SolrNetIntegration.*
+Ninject.Integration.SolrNet.*
+NHibernate.SolrNet.*
+StructureMap.SolrNetIntegration.*
+Unity.SolrNetIntegration.*
+AutofacContrib.SolrNet.*
+HttpWebAdapters.*

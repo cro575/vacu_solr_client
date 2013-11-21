@@ -1,0 +1,38 @@
+[SolrNet]
+SolrNet 관련 다양한 라이브러리 존재
+주요라이브러리 :
+
+	SolrNet : 메인 모듈 (vacusoft 기능확장, yskwun 추석추가)
+	HttpWebAdapters : Http 관련처리
+	 
+	- 원자료 Url : https://github.com/mausch/SolrNet
+			
+	SampleSolrApp : SolrNet관련 원자료 라이브러리 샘플
+
+
+VacuSolrNet : Vacusoft 샘플 (collection1 db로 설정을 맞추었음)
+   - 주요 의존 모듈 : HttpWebAdapters, SolrNet, SolrNet.DSL, log4net, Microsoft.Practices.ServiceLocation, System.Xml.Linq
+
+   - web.config 파일의 collection 설정 url 변경하여 테스트 해볼것
+	  <appSettings>
+		<add key="solrUrl" value="http://localhost:8983/solr/collection1"/><!--c_aks_todae, collection1--><!--http://hq.vacusoft.co.kr:8983/solr/c_aks_todae-->
+		<add key="credentials" value="vacu:vacu10041"/>
+	  </appSettings>
+
+
+   - Default.aspx.cs 파일의 부분 변경하여 테스트 해볼것
+            //default => browse handler 호출
+            queryOption.QT = "/browse";
+            searchResults = solr.Query(solrQuery, queryOption);
+
+            //xml 설정 기본 param 으로 호출
+            //queryOption.QT = "";
+            //searchResults = solr.Query("Collection1.listPage", solrQuery, queryOption); //Todae2013,Collection1 
+
+   - SolrUtil/SolrUtil.cs (그룹과 소팅 관련된 기준 필드 설정)
+		////////////////// 그룹 기준 필드 설정 //////////////////
+		static public String[] groupFileds = new String[] { "manu_exact", "popularity" }; //collection1
+
+        ////////////////// 소팅 기준 필드 설정 //////////////////
+        static string[] sort_list = new String[] { "name asc", "price asc" }; //collection1
+

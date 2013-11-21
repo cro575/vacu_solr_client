@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7066BB4-97B4-4C04-BC93-8F8749356E25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>org.apache.solr.SolrSharp</RootNamespace>
+    <AssemblyName>SolrSharp</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\SolrConfigurationSection.cs" />
+    <Compile Include="Configuration\Schema\SolrSchema.cs" />
+    <Compile Include="Configuration\Schema\SolrCopyField.cs" />
+    <Compile Include="Configuration\Schema\SolrDynamicField.cs" />
+    <Compile Include="Configuration\Schema\SolrField.cs" />
+    <Compile Include="Configuration\Schema\SolrType.cs" />
+    <Compile Include="Configuration\SolrSearcher.cs" />
+    <Compile Include="Configuration\SolrSearchers.cs" />
+    <Compile Include="Configuration\SolrServer.cs" />
+    <Compile Include="Configuration\SolrServers.cs" />
+    <Compile Include="Indexing\DeleteIndexDocument.cs" />
+    <Compile Include="Indexing\IndexFieldAttribute.cs" />
+    <Compile Include="Query\Highlights\BaseHighlighter.cs" />
+    <Compile Include="Query\Highlights\HighlightParameter.cs" />
+    <Compile Include="Query\Highlights\HighlightParameterCollection.cs" />
+    <Compile Include="Query\Parameters\IdListQueryParameter.cs" />
+    <Compile Include="Query\Parameters\IdListQueryParameterCollection.cs" />
+    <Compile Include="Query\Parameters\QueryParameter.cs" />
+    <Compile Include="Query\Parameters\RangeQueryParameter.cs" />
+    <Compile Include="Query\Parameters\StartsWithQueryParameter.cs" />
+    <Compile Include="Query\Query.cs" />
+    <Compile Include="Results\DebugResults.cs" />
+    <Compile Include="Results\ExplanationRecord.cs" />
+    <Compile Include="Results\FacetResults.cs" />
+    <Compile Include="Indexing\UpdateIndexDocument.cs" />
+    <Compile Include="Indexing\IndexFieldValue.cs" />
+    <Compile Include="Query\Parameters\QueryParameterCollection.cs" />
+    <Compile Include="Indexing\IndexDocument.cs" />
+    <Compile Include="Query\Facet.cs" />
+    <Compile Include="Query\Sort.cs" />
+    <Compile Include="Query\QueryBuilder.cs" />
+    <Compile Include="Results\HighlightRecord.cs" />
+    <Compile Include="Results\SearchRecord.cs" />
+    <Compile Include="Results\SearchResults.cs" />
+    <Compile Include="Results\SolrFacetResults.cs" />
+    <Compile Include="Results\SolrSearchRecord.cs" />
+    <Compile Include="Results\SolrSearchResults.cs" />
+    <Compile Include="Update\SolrUpdater.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

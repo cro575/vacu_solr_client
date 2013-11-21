@@ -1,0 +1,2137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SolrNet.AbstractSolrQuery" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAQBECAAAAQCAAAJAAAABAAAAAAAA=</HashCode>
+      <FileName>AbstractSolrQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SolrNet.AddParameters" Collapsed="true">
+    <Position X="5.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.DeleteParameters" Collapsed="true">
+    <Position X="7.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.UpdateParameters" Collapsed="true">
+    <Position X="6.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Cluster" Collapsed="true">
+    <Position X="44" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ClusterResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.ClusterResults" Collapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>ClusterResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.CollapsedDocument" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollapsedDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.CollapseResults" Collapsed="true">
+    <Position X="33.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEA=</HashCode>
+      <FileName>CollapseResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.RfNumber" Collapsed="true">
+    <Position X="3" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAgAEAAAABAAAAAAAAIAAAABAACAAAAA=</HashCode>
+      <FileName>DateFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.RfInteger" Collapsed="true">
+    <Position X="0.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAgAEAAAABAAAAAAAAKAAAABAACAAAAA=</HashCode>
+      <FileName>DateFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.RfDouble" Collapsed="true">
+    <Position X="3" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAgAEAAAABAAAAAAAAKAAAABAACAAAAA=</HashCode>
+      <FileName>DateFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.RfFloat" Collapsed="true">
+    <Position X="5.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAgAEAAAABAAAAAAAAKAAAABAACAAAAA=</HashCode>
+      <FileName>DateFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.RangeFacet" Collapsed="true">
+    <Position X="1.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQCAAAAAAAAAAAAQAAAAAACAAAAAAAIQAQAA=</HashCode>
+      <FileName>DateFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.NumericFacetResult" Collapsed="true">
+    <Position X="0.5" Y="22.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DateFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.DateFacetResult" Collapsed="true">
+    <Position X="2.75" Y="22.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DateFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.FacetCount" Collapsed="true">
+    <Position X="40.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAACAAAA=</HashCode>
+      <FileName>DateFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.DateFacetingResult" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DateFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.ExtractField" Collapsed="true">
+    <Position X="31.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ExtractField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.ExtractParameters" Collapsed="true">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkCAAAQAhBAAAACAAAAAAACAAAAAAABABAIAAAAggA=</HashCode>
+      <FileName>ExtractParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.ExtractResponse" Collapsed="true">
+    <Position X="35.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgA=</HashCode>
+      <FileName>ExtractResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.FacetDateOther" Collapsed="true">
+    <Position X="42.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAKAAAIAAAAUAwAA=</HashCode>
+      <FileName>FacetDateOther.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Group&lt;T&gt;" Collapsed="true">
+    <Position X="33.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAQAAAAAAAA=</HashCode>
+      <FileName>Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.GroupedResults&lt;T&gt;" Collapsed="true">
+    <Position X="35.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GroupedResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.LocalParams" Collapsed="true">
+    <Position X="38.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEQAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Location" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAEgAAIAAAAAAAABYAAAAACAAAAAAA=</HashCode>
+      <FileName>Location.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Money" Collapsed="true">
+    <Position X="33.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Money.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Pivot" Collapsed="true">
+    <Position X="30" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAgAAAAgAA=</HashCode>
+      <FileName>Pivot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.PivotFacetingResult" Collapsed="true">
+    <Position X="31.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PivotFacetingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.PivotFields" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAARAAAAAAAAIAACAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PivotFields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.RandomSortOrder" Collapsed="true">
+    <Position X="22.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RandomSortOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.ResponseHeader" Collapsed="true">
+    <Position X="45.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAoEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResponseHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrDIHStatus" Collapsed="true">
+    <Position X="42.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASBAQwEAIAAAAAIAAAgAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>SolrDIHStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrFacetDateQuery" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BALAAABCQCAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>SolrFacetDateQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.SolrFacetFieldQuery" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAABIAAAAAAAAAAQAQACAAAAAAAAAEAAAAAAgAA=</HashCode>
+      <FileName>SolrFacetFieldQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.SolrFacetPivotQuery" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>SolrFacetPivotQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.SolrFacetQuery" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>SolrFacetQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.SolrFieldModel" Collapsed="true">
+    <Position X="38.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>SolrFieldModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrHasValueQuery" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>SolrHasValueQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrMLTQuery" Collapsed="true">
+    <Position X="13" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>SolrMLTQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrMoreLikeThisHandlerQuery" Collapsed="true">
+    <Position X="10.25" Y="16.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>SolrMoreLikeThisHandlerQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrMoreLikeThisHandlerStreamBodyQuery" Collapsed="true">
+    <Position X="12.5" Y="16.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAABAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SolrMoreLikeThisHandlerStreamBodyQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrMoreLikeThisHandlerStreamUrlQuery" Collapsed="true">
+    <Position X="14.75" Y="16.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>SolrMoreLikeThisHandlerStreamUrlQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrMultipleCriteriaQuery" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAIABAAAAEQAAAAAAAAAAAA=</HashCode>
+      <FileName>SolrMultipleCriteriaQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrNotQuery" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>SolrNotQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrQuery" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAIAAAAAAA=</HashCode>
+      <FileName>SolrQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SolrNet.SolrQueryBoost" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAQAAAAAAAAAAAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>SolrQueryBoost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrQueryByDistance" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAEAAIIAAAAAACAAAgABAAAAAAAAAA=</HashCode>
+      <FileName>SolrQueryByDistance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.SolrQueryByField" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAAAAAAAAAAIAAgACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SolrQueryByField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrQueryByFieldRegex" Collapsed="true">
+    <Position X="17" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAABCAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>SolrQueryByFieldRegex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrQueryByRange&lt;RT&gt;" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAIAAAAAAAAQAAACAIgIAACpAAAAAAAAAAAAABA=</HashCode>
+      <FileName>SolrQueryByRange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SolrNet.SolrQueryInList" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>SolrQueryInList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrQueryResults&lt;T&gt;" Collapsed="true">
+    <Position X="20.75" Y="17" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gBAACwAAAAAAAIAAAAAAAAAAAAAAAAQCACAAAAABAAA=</HashCode>
+      <FileName>SolrQueryResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SolrRequiredQuery" Collapsed="true">
+    <Position X="1" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>SolrRequiredQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.SortOrder" Collapsed="true">
+    <Position X="22.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAABACAAAAAEgAAAAIAAAACAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SortOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Startup" Collapsed="true">
+    <Position X="38.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAgAACAgAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.StatsResult" Collapsed="true">
+    <Position X="44" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIBAAAAAAFAAAAAQBAAAABAAEAAAAAAAAAAQ=</HashCode>
+      <FileName>StatsResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Attributes.SolrFieldAttribute" Collapsed="true">
+    <Position X="19.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\SolrFieldAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Attributes.SolrUniqueKeyAttribute" Collapsed="true">
+    <Position X="19.25" Y="23" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\SolrUniqueKeyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.AddCommand&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAEAAAAAAQAAAAAAAAAAAIAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Commands\AddCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.CommitCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAQAAAAAAAAAAgAAAAAAAAAAAAAIAEA=</HashCode>
+      <FileName>Commands\CommitCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.CoreCommand" Collapsed="true">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Commands\CoreCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SolrNet.Commands.DeleteCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAQAAAAAEAAIAAAAAAAAACAAAA=</HashCode>
+      <FileName>Commands\DeleteCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.ExtractCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Commands\ExtractCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.GetSchemaCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\GetSchemaCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.OptimizeCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAQAAAAAAAAAAgAAAAAAAAAAAAAIAEA=</HashCode>
+      <FileName>Commands\OptimizeCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.PingCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\PingCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.RollbackCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\RollbackCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.Cores.AliasCommand" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Cores\AliasCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Cores.CreateCommand" Collapsed="true">
+    <Position X="17" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Cores\CreateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Cores.LoadCommand" Collapsed="true">
+    <Position X="1.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Cores\LoadCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Cores.ReloadCommand" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Cores\ReloadCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Cores.RenameCommand" Collapsed="true">
+    <Position X="5.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Cores\RenameCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Cores.StatusCommand" Collapsed="true">
+    <Position X="8" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Cores\StatusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Cores.SwapCommand" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Cores\SwapCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Cores.UnloadCommand" Collapsed="true">
+    <Position X="12.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Cores\UnloadCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.Algorithms" Collapsed="true">
+    <Position X="38.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAAIAA=</HashCode>
+      <FileName>Commands\Parameters\ClusteringParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.ClusteringParameters" Collapsed="true">
+    <Position X="45.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAIQEAAAAAAAAAACAAAAAAADIAAAiQAAAA=</HashCode>
+      <FileName>Commands\Parameters\ClusteringParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.CollapseParameters" Collapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAQAgAAAAgAA=</HashCode>
+      <FileName>Commands\Parameters\CollapseParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.CommitOptions" Collapsed="true">
+    <Position X="40.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAEA=</HashCode>
+      <FileName>Commands\Parameters\CommitOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.CommonQueryOptions" Collapsed="true">
+    <Position X="19.75" Y="18.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAAEIAAAABAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Commands\Parameters\CommonQueryOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.DeleteByIdAndOrQueryParam" Collapsed="true">
+    <Position X="45.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAAIAAAAAgA=</HashCode>
+      <FileName>Commands\Parameters\DeleteByIdAndOrQueryParam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.FacetParameters" Collapsed="true">
+    <Position X="44" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABIAAAAAAAAAAQAQACAAAAAAQAAEAAAAAAgAA=</HashCode>
+      <FileName>Commands\Parameters\FacetParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.GroupingParameters" Collapsed="true">
+    <Position X="37" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAQAAAAAAAAAAAAQAAAAgAAAgAAAABBAAAgAA=</HashCode>
+      <FileName>Commands\Parameters\GroupingParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.HighlightingParameters" Collapsed="true">
+    <Position X="45.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQFQAAAAAAAgQEBAKIACAgAAAAAAACAAAAAgAkAA=</HashCode>
+      <FileName>Commands\Parameters\HighlightingParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.MoreLikeThisHandlerParameters" Collapsed="true">
+    <Position X="15.75" Y="22.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Commands\Parameters\MoreLikeThisHandlerParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.MoreLikeThisHandlerQueryOptions" Collapsed="true">
+    <Position X="18.5" Y="19.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Commands\Parameters\MoreLikeThisHandlerQueryOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.MoreLikeThisParameters" Collapsed="true">
+    <Position X="16" Y="21.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAAAAAAAAQAQAAAwAQAAgAAQAAAAAgAAAgAA=</HashCode>
+      <FileName>Commands\Parameters\MoreLikeThisParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.QueryOptions" Collapsed="true">
+    <Position X="21.25" Y="19.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IJIAigAkAAAAAAAQAAAAAAECAAAAAGAAAAAACAAAgAI=</HashCode>
+      <FileName>Commands\Parameters\QueryOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.RegexFlag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAAAEBgAAAQAAAAAAAAIAAAABAAACAIAA=</HashCode>
+      <FileName>Commands\Parameters\RegexFlag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.SpellCheckingParameters" Collapsed="true">
+    <Position X="31.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAABQAAAAAhAgACAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Parameters\SpellCheckingParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.StatsParameters" Collapsed="true">
+    <Position X="40.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAEAAAAAAAAAAQAAAAAAAAAACAAAAAAAAAAAAg=</HashCode>
+      <FileName>Commands\Parameters\StatsParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.TermsParameters" Collapsed="true">
+    <Position X="45.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAABABgADAQAAAAQAQACAAAAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>Commands\Parameters\TermsParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.TermsSort" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAQAAAAAAIAAAAEAAAAAAAA=</HashCode>
+      <FileName>Commands\Parameters\TermsSort.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Commands.Parameters.TermVectorParameters" Collapsed="true">
+    <Position X="33.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAA=</HashCode>
+      <FileName>Commands\Parameters\TermVectorParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Exceptions.InvalidFieldException" Collapsed="true">
+    <Position X="5.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidFieldException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Exceptions.InvalidSortOrderException" Collapsed="true">
+    <Position X="7.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidSortOrderException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Exceptions.InvalidURLException" Collapsed="true">
+    <Position X="9.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidURLException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Exceptions.SolrConnectionException" Collapsed="true">
+    <Position X="0.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\SolrConnectionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Exceptions.SolrNetException" Collapsed="true">
+    <Position X="5.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\SolrNetException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Exceptions.TypeNotSupportedException" Collapsed="true">
+    <Position X="3" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\TypeNotSupportedException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.AbstractSolrQueryResults&lt;T&gt;" Collapsed="true">
+    <Position X="19.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAAAAAAAAIAAAAAAAAAAQAAAAAAQAAQAAAADACA=</HashCode>
+      <FileName>Impl\AbstractSolrQueryResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.CoreIndexResult" Collapsed="true">
+    <Position X="44" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgBAEAAAAwABAAAAQkAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\CoreIndexResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.CoreResult" Collapsed="true">
+    <Position X="45.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAQAIAAAAAAAAAEAAADAAAA=</HashCode>
+      <FileName>Impl\CoreResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.HighlightedSnippets" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAKAAEAAAAAEABAQCAAABAQAAAAAAAAEAAAgAABQIAA=</HashCode>
+      <FileName>Impl\HighlightedSnippets.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.HttpRuntimeCache" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIiA=</HashCode>
+      <FileName>Impl\HttpRuntimeCache.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.NullCache" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\NullCache.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.PropertyNode" Collapsed="true">
+    <Position X="37" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\PropertyNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.SolrBasicServer&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAUAEAEAAgAQAECAECBAAFAAAFAAAoAAEACAAAABgg=</HashCode>
+      <FileName>Impl\SolrBasicServer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrCacheEntity" Collapsed="true">
+    <Position X="31.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAABAACAAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrCacheEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.SolrConnection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAgSAAAAIBCAAAAAAAACAAEAQIAAAEAAAAAICA=</HashCode>
+      <FileName>Impl\SolrConnection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrCoreAdmin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACEAAIAAAAAAECBAAAAAAABAEAACAAAAAAAhAA=</HashCode>
+      <FileName>Impl\SolrCoreAdmin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrDictionaryDocumentResponseParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrDictionaryDocumentResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrDictionarySerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrDictionarySerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrDIHStatusParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrDIHStatusParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrDocumentActivator&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrDocumentActivator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrDocumentResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAQAAAAAAAAIAAAICAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrDocumentResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrDocumentSerializer&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAQAAAAAAAAAAAAASAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Impl\SolrDocumentSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrMoreLikeThisHandlerQueryResultsParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrMoreLikeThisHandlerQueryResultsParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrMoreLikeThisHandlerResults&lt;T&gt;" Collapsed="true">
+    <Position X="17.75" Y="17" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrMoreLikeThisHandlerResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.PostSolrConnection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAABAAAAAAAAACAUAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrPostConnection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrQueryExecuter&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgAQACICAYAAACBAOBQJCEACAIAAiABAECBAAA=</HashCode>
+      <FileName>Impl\SolrQueryExecuter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrServer&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACoAAGAEAAAAQAACAECAAAEAICFAAAoAAAACAAIEAhk=</HashCode>
+      <FileName>Impl\SolrServer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SolrStatusResponseParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\SolrStatusResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.SpellCheckResult" Collapsed="true">
+    <Position X="35.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAQAAAAAAAAAAAAAAgAAAQABAAAAAA=</HashCode>
+      <FileName>Impl\SpellCheckResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.SpellCheckResults" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAAAAAABAQAAAABAQAAAAAAAAEAAAAAABSIAA=</HashCode>
+      <FileName>Impl\SpellCheckResults.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.TermsResult" Collapsed="true">
+    <Position X="26.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Impl\TermsResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.TermsResults" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAAAABAQAAAABAQAAAAAAAAEAAAAAABQIAA=</HashCode>
+      <FileName>Impl\TermsResults.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.TermVectorDocumentResult" Collapsed="true">
+    <Position X="31.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\TermVectorDocumentResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.TermVectorResult" Collapsed="true">
+    <Position X="35.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAQAAAAAoAAAAAAAAAAAAAQAAEAAAAAAAgAA=</HashCode>
+      <FileName>Impl\TermVectorDocumentResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.Offset" Collapsed="true">
+    <Position X="47.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\TermVectorDocumentResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.DocumentPropertyVisitors.AggregateDocumentVisitor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\DocumentPropertyVisitors\AggregateDocumentVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.DocumentPropertyVisitors.DefaultDocumentVisitor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\DocumentPropertyVisitors\DefaultDocumentVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.DocumentPropertyVisitors.GenericDictionaryDocumentVisitor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAIAAQAAAACAAAAAQAAACAAAAAgAAAJYAA=</HashCode>
+      <FileName>Impl\DocumentPropertyVisitors\GenericDictionaryDocumentVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.DocumentPropertyVisitors.RegularDocumentVisitor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Impl\DocumentPropertyVisitors\RegularDocumentVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FacetQuerySerializers.AggregateFacetQuerySerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FacetQuerySerializers\AggregateFacetQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FacetQuerySerializers.DefaultFacetQuerySerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FacetQuerySerializers\DefaultFacetQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FacetQuerySerializers.SingleTypeFacetQuerySerializer&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FacetQuerySerializers\SingleTypeFacetQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SolrNet.Impl.FacetQuerySerializers.SolrFacetDateQuerySerializer" Collapsed="true">
+    <Position X="0.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAgAAAASAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\FacetQuerySerializers\SolrFacetDateQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.FacetQuerySerializers.SolrFacetFieldQuerySerializer" Collapsed="true">
+    <Position X="3" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\FacetQuerySerializers\SolrFacetFieldQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.FacetQuerySerializers.SolrFacetPivotQuerySerializer" Collapsed="true">
+    <Position X="5.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\FacetQuerySerializers\SolrFacetPivotQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.FacetQuerySerializers.SolrFacetQuerySerializer" Collapsed="true">
+    <Position X="7.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\FacetQuerySerializers\SolrFacetQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.AggregateFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\AggregateFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.CollectionFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAEAAAAAAAAgBAAAEAIAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\CollectionFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.DateTimeFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\DateTimeFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.DateTimeOffsetFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\DateTimeOffsetFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.DecimalFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\DecimalFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.DefaultFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIIAA=</HashCode>
+      <FileName>Impl\FieldParsers\DefaultFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.DoubleFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\DoubleFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.EnumFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\EnumFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.FloatFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\FloatFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.GuidFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\GuidFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.InferringFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAIIAA=</HashCode>
+      <FileName>Impl\FieldParsers\InferringFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.IntFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\IntFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.LocationFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\LocationFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.LongFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\LongFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.MoneyFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\MoneyFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.NullableFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIIAA=</HashCode>
+      <FileName>Impl\FieldParsers\NullableFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldParsers.TypeConvertingFieldParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\FieldParsers\TypeConvertingFieldParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.AbstractFieldSerializer&lt;T&gt;" Collapsed="true">
+    <Position X="16" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\AbstractFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.AggregateFieldSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\AggregateFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.BoolFieldSerializer" Collapsed="true">
+    <Position X="15" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Impl\FieldSerializers\BoolFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.CollectionFieldSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\CollectionFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.DateTimeFieldSerializer" Collapsed="true">
+    <Position X="17.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\DateTimeFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.DateTimeOffsetFieldSerializer" Collapsed="true">
+    <Position X="19.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\DateTimeOffsetFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.DefaultFieldSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\DefaultFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.FormattableFieldSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\FormattableFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.GenericDictionaryFieldSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAIAAAAAAAAACAIAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\GenericDictionaryFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.MoneyFieldSerializer" Collapsed="true">
+    <Position X="12.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\MoneyFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.NullableFieldSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\NullableFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.ToStringFieldSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\ToStringFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.FieldSerializers.TypeConvertingFieldSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\FieldSerializers\TypeConvertingFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.AggregateQuerySerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\AggregateQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.BoostQuerySerializer" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\BoostQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.DateTimeRangeQuerySerializer" Collapsed="true">
+    <Position X="10" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAASAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\DateTimeRangeQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.DefaultQuerySerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\DefaultQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.HasValueQuerySerializer" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\HasValueQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.LocalParamsSerializer" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\LocalParamsSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.MultipleCriteriaQuerySerializer" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\MultipleCriteriaQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.NotQuerySerializer" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\NotQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.NullableDateTimeRangeQuerySerializer" Collapsed="true">
+    <Position X="21.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAASAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\NullableDateTimeRangeQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.QueryByFieldRegexSerializer" Collapsed="true">
+    <Position X="23.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\QueryByFieldRegexSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.QueryByFieldSerializer" Collapsed="true">
+    <Position X="1" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAgCAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\QueryByFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.QueryInListSerializer" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\QueryInListSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.RangeQuerySerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAASAAAAEAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\RangeQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.RequiredQuerySerializer" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\RequiredQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.SelfSerializingQuerySerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\SelfSerializingQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.QuerySerializers.SingleTypeQuerySerializer&lt;T&gt;" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\QuerySerializers\SingleTypeQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.AggregateResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\AggregateResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.ClusterResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\ClusterResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.CollapseResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\CollapseResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.CoreStatusResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\CoreStatusResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.DefaultResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Impl\ResponseParsers\DefaultResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.ExtractResponseParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\ExtractResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.FacetsResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgAAAAAAAAEAAAEAgAAAAACAAAAAgAAAAAAAIAQAA=</HashCode>
+      <FileName>Impl\ResponseParsers\FacetsResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.GroupingResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAABABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\GroupingResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.HeaderResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\HeaderResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.HighlightingResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\HighlightingResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.InterestingTermsResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAQAAAAAAAAAAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\InterestingTermsResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.MoreLikeThisHandlerMatchResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\MoreLikeThisHandlerMatchResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.MoreLikeThisResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\MoreLikeThisResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.ResultsResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAQAAIAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\ResultsResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.SpellCheckResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\SpellCheckResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.StatsResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\StatsResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.TermsResponseParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ResponseParsers\TermsResponseParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Impl.ResponseParsers.TermVectorResultsParser&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgQAAQAAAAAAAAAAAAACAAAAAAAAAAACAAAAAAABA=</HashCode>
+      <FileName>Impl\ResponseParsers\TermVectorResultsParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.AllPropertiesMappingManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAgAAAAAAAIAAAAAAAAAAAAQAAAAAAAgA=</HashCode>
+      <FileName>Mapping\AllPropertiesMappingManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.AttributesMappingManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAgAQAAAAAIAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\AttributesMappingManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.MappingManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIgAAAgAAAAAAAIAAAAAAAAAAAAQAAAAAAAgA=</HashCode>
+      <FileName>Mapping\MappingManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.MemoizingMappingManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgABIwAAAAAAAIAAAAAAAAACAAAAAIAAAAAA=</HashCode>
+      <FileName>Mapping\MemoizingMappingManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.MappingValidator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Mapping\Validation\MappingValidator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.ValidationError" Collapsed="true">
+    <Position X="8.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\Validation\ValidationError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.ValidationResult" Collapsed="true">
+    <Position X="9.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Mapping\Validation\ValidationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.ValidationWarning" Collapsed="true">
+    <Position X="10.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\Validation\ValidationWarning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.AbstractSolrFieldTypeChecker" Collapsed="true">
+    <Position X="7.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAEIAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\AbstractSolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.BoolSolrFieldTypeChecker" Collapsed="true">
+    <Position X="1" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\BoolSolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.DateTimeSolrFieldTypeChecker" Collapsed="true">
+    <Position X="3.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\DateTimeSolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.DecimalSolrFieldTypeChecker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\DecimalSolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.DoubleSolrFieldTypeChecker" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\DoubleSolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.FloatSolrFieldTypeChecker" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\FloatSolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.IntSolrFieldTypeChecker" Collapsed="true">
+    <Position X="10" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\IntSolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.LongSolrFieldTypeChecker" Collapsed="true">
+    <Position X="12.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\LongSolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.MappedPropertiesIsInSolrSchemaRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\MappedPropertiesIsInSolrSchemaRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.MappingTypesAreCompatibleWithSolrTypesRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\MappingTypesAreCompatibleWithSolrTypesRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.MultivaluedMappedToCollectionRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\MultivaluedMappedToCollectionRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.RequiredFieldsAreMappedRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\RequiredFieldsAreMappedRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.StringSolrFieldTypeChecker" Collapsed="true">
+    <Position X="14.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\StringSolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Mapping.Validation.Rules.UniqueKeyMatchesMappingRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\UniqueKeyMatchesMappingRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Schema.SolrCopyField" Collapsed="true">
+    <Position X="35.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\SolrCopyField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Schema.SolrDynamicField" Collapsed="true">
+    <Position X="28.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\SolrDynamicField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Schema.SolrField" Collapsed="true">
+    <Position X="37" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAQgAAAAAAAA=</HashCode>
+      <FileName>Schema\SolrField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Schema.SolrFieldType" Collapsed="true">
+    <Position X="40.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Schema\SolrFieldType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Schema.SolrSchema" Collapsed="true">
+    <Position X="47.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAQAEAACAAAAAAAQAgAAAAAAAAAAAQA=</HashCode>
+      <FileName>Schema\SolrSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Schema.SolrSchemaParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\SolrSchemaParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Utils.Container" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAAEAABAAACAABAAAAIAAAAABAAAA=</HashCode>
+      <FileName>Utils\Container.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SolrNet.Utils.HttpEncoder" Collapsed="true">
+    <Position X="26.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACQAgAAgUIQAgACBIACAAAgAIQAEBAEAAAAAACA=</HashCode>
+      <FileName>Utils\HttpEncoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Utils.HttpUtility" Collapsed="true">
+    <Position X="30" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACABEAIAAgAAIQAAAgAAAAAAAhACQAEBAAAAACAAAA=</HashCode>
+      <FileName>Utils\HttpUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Utils.KV" Collapsed="true">
+    <Position X="37" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\KV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Utils.Memoizer" Collapsed="true">
+    <Position X="30" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\Memoizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Utils.TypeHelper" Collapsed="true">
+    <Position X="44" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\TypeHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Utils.Unit" Collapsed="true">
+    <Position X="47.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Utils.F" Collapsed="true">
+    <Position X="38.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAACAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Utils\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Utils.UriValidator" Collapsed="true">
+    <Position X="26.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\UriValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolrNet.Utils.X" Collapsed="true">
+    <Position X="28.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\X.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SolrNet.IReadOnlyMappingManager" Collapsed="true">
+    <Position X="10.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAgAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IReadOnlyMappingManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrBasicOperations&lt;T&gt;" Collapsed="true">
+    <Position X="21.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAAAAQAACAEAAAAAAAAEAAAAAAEAAAAAABgA=</HashCode>
+      <FileName>ISolrBasicOperations.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrBasicReadOnlyOperations&lt;T&gt;" Collapsed="true">
+    <Position X="20.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAECAAAEAAABAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>ISolrBasicReadOnlyOperations.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrCommand" Collapsed="true">
+    <Position X="31.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISolrCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrConnection" Collapsed="true">
+    <Position X="33.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAABAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISolrConnection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrCoreAdmin" Collapsed="true">
+    <Position X="35.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACEAAIAAAAAAAAAAAAAAAABAEAACAAAAAAAgAA=</HashCode>
+      <FileName>ISolrCoreAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrDocumentSerializer&lt;T&gt;" Collapsed="true">
+    <Position X="44" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISolrDocumentSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrFacetQuery" Collapsed="true">
+    <Position X="47.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISolrFacetQuery.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrOperations&lt;T&gt;" Collapsed="true">
+    <Position X="19.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAGAEAAAAQAACAAAAAAAAAAEAAAAAAAAAAAAEAgk=</HashCode>
+      <FileName>ISolrOperations.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrQuery" Collapsed="true">
+    <Position X="13.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISolrQuery.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrQueryExecuter&lt;T&gt;" Collapsed="true">
+    <Position X="38.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISolrQueryExecuter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.ISolrReadOnlyOperations&lt;T&gt;" Collapsed="true">
+    <Position X="19.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABA=</HashCode>
+      <FileName>ISolrReadOnlyOperations.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISelfSerializingQuery" Collapsed="true">
+    <Position X="13.25" Y="22.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISelfSerializingQuery.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrAbstractResponseParser&lt;T&gt;" Collapsed="true">
+    <Position X="14.25" Y="18.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrAbstractResponseParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrCache" Collapsed="true">
+    <Position X="30" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrCache.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrDIHStatusParser" Collapsed="true">
+    <Position X="37" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrDIHStatusParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrDocumentActivator&lt;T&gt;" Collapsed="true">
+    <Position X="38.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrDocumentActivator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrDocumentPropertyVisitor" Collapsed="true">
+    <Position X="40.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrDocumentPropertyVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrDocumentResponseParser&lt;T&gt;" Collapsed="true">
+    <Position X="42.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrDocumentResponseParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrExtractResponseParser" Collapsed="true">
+    <Position X="45.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrExtractResponseParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrFacetQuerySerializer" Collapsed="true">
+    <Position X="26.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\ISolrFacetQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrFieldParser" Collapsed="true">
+    <Position X="28.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAA=</HashCode>
+      <FileName>Impl\ISolrFieldParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrFieldSerializer" Collapsed="true">
+    <Position X="30" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\ISolrFieldSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrHeaderResponseParser" Collapsed="true">
+    <Position X="33.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrHeaderResponseParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrMoreLikeThisHandlerQueryResultsParser&lt;T&gt;" Collapsed="true">
+    <Position X="35.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrMoreLikeThisHandlerQueryResultsParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrMoreLikeThisHandlerResponseParser&lt;T&gt;" Collapsed="true">
+    <Position X="12.75" Y="19.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrMoreLikeThisHandlerResponseParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrQueryByRange" Collapsed="true">
+    <Position X="37" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAACAAAAAACJAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Impl\ISolrQueryByRange.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrQuerySerializer" Collapsed="true">
+    <Position X="40.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Impl\ISolrQuerySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrResponseParser&lt;T&gt;" Collapsed="true">
+    <Position X="15.75" Y="19.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrResponseParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Impl.ISolrStatusResponseParser" Collapsed="true">
+    <Position X="44" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\ISolrStatusResponseParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Mapping.IMappingManager" Collapsed="true">
+    <Position X="10.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Mapping\IMappingManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Mapping.Validation.IMappingValidator" Collapsed="true">
+    <Position X="28.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Mapping\Validation\IMappingValidator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Mapping.Validation.Rules.ISolrFieldTypeChecker" Collapsed="true">
+    <Position X="31.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\ISolrFieldTypeChecker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Mapping.Validation.Rules.IValidationRule" Collapsed="true">
+    <Position X="45.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\Validation\Rules\IValidationRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Schema.ISolrSchemaParser" Collapsed="true">
+    <Position X="42.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\ISolrSchemaParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SolrNet.Utils.IContainer" Collapsed="true">
+    <Position X="26.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAABAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Utils\IContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SolrNet.ExtractFormat" Collapsed="true">
+    <Position X="33.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ExtractFormat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SolrNet.Order" Collapsed="true">
+    <Position X="38.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SolrNet.DIHStatus" Collapsed="true">
+    <Position X="31.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SolrDIHStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SolrNet.CalculationAccuracy" Collapsed="true">
+    <Position X="26.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SolrQueryByDistance.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SolrNet.Commands.Parameters.CollapseType" Collapsed="true">
+    <Position X="30" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Parameters\CollapseParameters.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SolrNet.Commands.Parameters.CollapseFacetMode" Collapsed="true">
+    <Position X="28.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAA=</HashCode>
+      <FileName>Commands\Parameters\CollapseParameters.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SolrNet.Commands.Parameters.GroupingFormat" Collapsed="true">
+    <Position X="35.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Parameters\GroupingParameters.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SolrNet.Commands.Parameters.SolrHighlightFragmenter" Collapsed="true">
+    <Position X="40.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Parameters\HighlightingParameters.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SolrNet.Commands.Parameters.InterestingTerms" Collapsed="true">
+    <Position X="37" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAI=</HashCode>
+      <FileName>Commands\Parameters\InterestingTerms.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SolrNet.Commands.Parameters.TermVectorParameterOptions" Collapsed="true">
+    <Position X="42.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgBAAAIAAAAAAAAQEAAIAAAAQAAAA=</HashCode>
+      <FileName>Commands\Parameters\TermVectorParameters.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

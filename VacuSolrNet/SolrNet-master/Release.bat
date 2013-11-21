@@ -1,0 +1,1 @@
+lib\fake.exe build.fsx target=BuildAndRelease config=Release
