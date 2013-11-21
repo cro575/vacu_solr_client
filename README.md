@@ -20,17 +20,17 @@ VaceSolrSharp : Vacusoft 샘플 (collection1 db로 설정을 맞추었음)
 			<server mode="ReadWrite" url="http://localhost:8983/solr/collection1"/>
 		</solr>
 
-   - Default.aspx.cs 파일의 부분 변경하여 테스트 해볼것
-            searchResults.ExecuteSearch(solrSearchVO); //default => browse handler 호출
-            //searchResults.ExecuteSearch("Collection1.listPage", solrSearchVO); //xml 설정 기본 param 으로 호출
+   - Default.aspx.cs 파일의 부분 변경하여 테스트 해볼것<br>
+            searchResults.ExecuteSearch(solrSearchVO); //default => browse handler 호출<br>
+            //searchResults.ExecuteSearch("Collection1.listPage", solrSearchVO); //xml 설정 기본 param 으로 호출<br>
 
    - SolrUtil/SolrUtil.cs (그룹과 소팅 관련된 기준 필드 설정)
-		////////////////// 그룹 기준 필드 설정 //////////////////
-		static public String[] groupFileds = new String[] { "manu_exact", "popularity" }; //collection1
+		////////////////// 그룹 기준 필드 설정 //////////////////<br>
+		static public String[] groupFileds = new String[] { "manu_exact", "popularity" }; //collection1<br>
 
-        ////////////////// 소팅 기준 필드 설정 //////////////////
-        static string[] sort_list = new String[] { "name asc", "price asc" }; //collection1
+        ////////////////// 소팅 기준 필드 설정 //////////////////<br>
+        static string[] sort_list = new String[] { "name asc", "price asc" }; //collection1<br>
 
 VacuSolrUploader : 
-   - 의존 모듈 : SolrSharp
-   - SolrSharp 을 이용한 xml 파일 업로드 색인 및 solr command 전송 유틸
+   - 의존 모듈 : SolrSharp<br>
+   - SolrSharp 을 이용한 xml 파일 업로드 색인 및 solr command 전송 유틸<br>
