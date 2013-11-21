@@ -45,8 +45,8 @@ VacuSolrNet
 		////////////////// 그룹 기준 필드 설정 //////////////////
 		static public String[] groupFileds = new String[] { "manu_exact", "popularity" }; //collection1
 
-        	////////////////// 소팅 기준 필드 설정 //////////////////
-        	static string[] sort_list = new String[] { "name asc", "price asc" }; //collection1
+		////////////////// 소팅 기준 필드 설정 //////////////////
+		static string[] sort_list = new String[] { "name asc", "price asc" }; //collection1
 
 
 
@@ -73,7 +73,7 @@ VaceSolrSharp
 ----------------------------------------
 	Vacusoft 샘플 (collection1 db로 설정을 맞추었음)
   
-		의존 모듈 : SolrSharp
+		의존모듈 : SolrSharp
 	
 		Global.asax.cs 필요시 웹 Secure 처리
         	SolrSearcher.bSecure_Connet = true;
@@ -90,11 +90,13 @@ VaceSolrSharp
 		//searchResults.ExecuteSearch("Collection1.listPage", solrSearchVO); //xml 설정 기본 param 으로 호출
 
 	SolrUtil/SolrUtil.cs (그룹과 소팅 관련된 기준 필드 설정)
+		
 		////////////////// 그룹 기준 필드 설정 //////////////////
 		static public String[] groupFileds = new String[] { "manu_exact", "popularity" }; //collection1
 
-        	////////////////// 소팅 기준 필드 설정 //////////////////
-        	static string[] sort_list = new String[] { "name asc", "price asc" }; //collection1
+		////////////////// 소팅 기준 필드 설정 //////////////////
+		static string[] sort_list = new String[] { "name asc", "price asc" }; //collection1
+        	
 
 VacuSolrUploader 
 ----------------------------------------
