@@ -16,11 +16,11 @@ VaceSolrSharp : Vacusoft 샘플 (collection1 db로 설정을 맞추었음)
         SolrSearcher.loginPW = "vacu10041";
         
    - web.config 파일의 collection 설정 url 변경하여 테스트 해볼것
-  
-    <solr>
+	“`
+	 <solr>
 		<server mode="ReadWrite" url="http://localhost:8983/solr/collection1"/>
 	</solr>
-
+	“`
    - Default.aspx.cs 파일의 부분 변경하여 테스트 해볼것
   
             searchResults.ExecuteSearch(solrSearchVO); //default => browse handler 호출<br>
