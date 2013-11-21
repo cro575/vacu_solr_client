@@ -69,7 +69,7 @@ SolrSharp.Example
   SolrSharp 라이브러리 샘플
 
 
-VaceSolrSharp
+VacuSolrSharp
 ----------------------------------------
 	Vacusoft 샘플 (collection1 db로 설정을 맞추었음)
   
