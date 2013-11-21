@@ -1,6 +1,6 @@
 [SolrSharp]
 
-SolrSharp : 
+SolrSharp : <br>
 	- SolrSharp 라이브러리 (vacusoft 기능확장, yskwun 추석추가)<br>
 	- 원자료 Url : http://solrsharp.codeplex.com/
 			
@@ -20,7 +20,7 @@ VaceSolrSharp : Vacusoft 샘플 (collection1 db로 설정을 맞추었음)
 			<server mode="ReadWrite" url="http://localhost:8983/solr/collection1"/>
 		</solr>
 
-   - Default.aspx.cs 파일의 부분 변경하여 테스트 해볼것<br>
+   - Default.aspx.cs 파일의 부분 변경하여 테스트 해볼것
             searchResults.ExecuteSearch(solrSearchVO); //default => browse handler 호출<br>
             //searchResults.ExecuteSearch("Collection1.listPage", solrSearchVO); //xml 설정 기본 param 으로 호출<br>
 
