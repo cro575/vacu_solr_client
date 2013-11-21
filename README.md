@@ -90,7 +90,6 @@ VaceSolrSharp
 		//searchResults.ExecuteSearch("Collection1.listPage", solrSearchVO); //xml 설정 기본 param 으로 호출
 
 	SolrUtil/SolrUtil.cs (그룹과 소팅 관련된 기준 필드 설정)
-		
 		////////////////// 그룹 기준 필드 설정 //////////////////
 		static public String[] groupFileds = new String[] { "manu_exact", "popularity" }; //collection1
 
