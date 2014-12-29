@@ -9,7 +9,7 @@
 	Visual Studio2010
 
 
-SolrNet 관련 다양한 라이브러리 존재
+SolrNet 관련 다양한 라이브러리 존재 
 ----------------------------------------
 [원자료 Url : https://github.com/mausch/SolrNet]
 
